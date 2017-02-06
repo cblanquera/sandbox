@@ -1,7 +1,16 @@
 {
   "$jason": {
     "head": {
-      "title": "{ ˃̵̑ᴥ˂̵̑}",
+      "title": "Acme",
+      "description": "This is the Acme App",
+      "icon": "http://salap.ph/images/logo/logo-small-1.png",
+      "styles": {
+        "branding": {
+          "font": "HelveticaNeue",
+          "size": "20",
+          "color": "#333333"
+        }
+      }
       "actions": {
         "$foreground": {
           "type": "$reload"
@@ -23,6 +32,30 @@
       },
       "sections": [
         {
+          "header": {
+            "title": {
+              "type": "image",
+              "style": {
+                "width": "37",
+                "height": "27"
+              },
+              "url": "http://salap.ph/images/logo/logo-4.png"
+            },
+            "search": {
+              "name": "query_text",
+              "placeholder": "Search something",
+              "style": {
+                "background": "#000000"
+              },
+              "action": {
+                "type": "$util.alert",
+                "options": {
+                  "title": "You've entered:",
+                  "description": "{{$get.query_text}}"
+                }
+              }
+            }
+          },
           "items": [
             {
               "type": "vertical",
@@ -52,7 +85,7 @@
                 },
                 {
                   "type": "label",
-                  "text": "This is a demo app showing Charles about this. You can make your own app by changing the url inside settings.plist",
+                  "text": "This is a demo app showing Clark about this. You can make your own app by changing the url inside settings.plist",
                   "style": {
                     "align": "center",
                     "font": "Courier",
