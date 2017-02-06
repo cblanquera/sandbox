@@ -43,6 +43,15 @@
                 },
                 {
                   "type": "label",
+                  "text": "And awesome..",
+                  "style": {
+                    "align": "center",
+                    "font": "Arial",
+                    "size": "16"
+                  }
+                },
+                {
+                  "type": "label",
                   "text": "This is a demo app showing Clark about this. You can make your own app by changing the url inside settings.plist",
                   "style": {
                     "align": "center",
