@@ -23,11 +23,11 @@
     "body": {
       "header": {
         "style": {
-          "background": "#ffffff"
+          "background": "#DF0000"
         }
       },
       "style": {
-        "background": "#ffffff",
+        "background": "#EFEFEF",
         "border": "none"
       },
       "sections": [
