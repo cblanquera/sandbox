@@ -10,7 +10,7 @@
           "size": "20",
           "color": "#333333"
         }
-      }
+      },
       "actions": {
         "$foreground": {
           "type": "$reload"
